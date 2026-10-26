@@ -1,0 +1,205 @@
+html, body
+{
+   height: 100%;
+}
+div#space
+{
+   width: 1px;
+   height: 50%;
+   margin-bottom: -363px;
+   float:left
+}
+div#container
+{
+   width: 1000px;
+   height: 726px;
+   margin: 0 auto;
+   position: relative;
+   clear: left;
+}
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#wb_Image1
+{
+   vertical-align: top;
+}
+#Image1
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Shape1
+{
+   width: 729px;
+   height: 104px;
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px #D2D2D2 solid;
+   border-radius: 10px;
+}
+#wb_Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text1 div
+{
+   text-align: center;
+}
+#wb_Image3
+{
+   vertical-align: top;
+}
+#Image3
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Text2 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: justify;
+}
+#wb_Text2 div
+{
+   text-align: justify;
+}
+#SlideShow3 .image
+{
+   border-width: 0;
+   border-radius: inherit;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#SlideShow3 a:not(:first-child) .image
+{
+   display: none;
+}
+#SlideShow3 .carousel-control-next, #SlideShow3 .carousel-control-prev
+{
+   cursor: pointer;
+   position: absolute;
+   text-align: center;
+   top: 0;
+   left: 0;
+   opacity: 0.5;
+   transition: opacity 0.3s ease;
+}
+#SlideShow3 .carousel-control-next-icon, #SlideShow3 .carousel-control-prev-icon
+{
+   display: inline-block;
+   width: 32px;
+   height: 32px;
+   background: transparent no-repeat center center;
+   background-size: 100% 100%;
+}
+#SlideShow3 .carousel-control-next:hover, #SlideShow3 .carousel-control-prev:hover
+{
+   text-decoration: none;
+   outline: 0;
+   opacity: 1;
+}
+#SlideShow3 .carousel-control-prev-icon
+{
+   background: url('data:image/svg+xml,%3csvg%20style%3d%22fill:%23000000%22%20viewBox%3d%220%200%20128%20128%22%20version%3d%221.1%22%20xmlns%3d%22http://www.w3.org/2000/svg%22%3e%0d%0a%20%20%20%3cpath%20d%3d%22M132%2031%20C129%2024%2c%20125%2019%2c%20118%2017%20C114%2016%2c%20108%2016%2c%2099%2015%20C91%2015%2c%2083%2015%2c%2075%2015%20C69%2015%2c%2065%2015%2c%2065%2015%20C64%2015%2c%2060%2015%2c%2054%2015%20C46%2015%2c%2038%2015%2c%2030%2015%20C21%2016%2c%2015%2016%2c%2011%2017%20C4%2019%2c%200%2024%2c%20%2d2%2030%20C%2d3%2034%2c%20%2d4%2039%2c%20%2d4%2044%20C%2d5%2049%2c%20%2d5%2054%2c%20%2d5%2058%20C%2d5%2062%2c%20%2d5%2064%2c%20%2d5%2064%20C%2d5%2064%2c%20%2d5%2066%2c%20%2d5%2070%20C%2d5%2074%2c%20%2d5%2079%2c%20%2d4%2084%20C%2d4%2089%2c%20%2d3%2093%2c%20%2d2%2097%20C0%20104%2c%204%20108%2c%2011%20110%20C15%20111%2c%2021%20112%2c%2030%20112%20C38%20113%2c%2046%20113%2c%2053%20113%20C60%20113%2c%2064%20113%2c%2065%20113%20C65%20113%2c%2065%20113%2c%2065%20113%20C65%20113%2c%2069%20113%2c%2076%20113%20C83%20113%2c%2091%20113%2c%2099%20112%20C108%20112%2c%20114%20111%2c%20118%20110%20C125%20108%2c%20129%20104%2c%20132%2097%20C132%2093%2c%20133%2089%2c%20134%2084%20C134%2079%2c%20134%2074%2c%20134%2070%20C134%2066%2c%20134%2064%2c%20134%2064%20C134%2064%2c%20134%2062%2c%20134%2058%20C134%2054%2c%20134%2049%2c%20134%2044%20C133%2039%2c%20132%2034%2c%20132%2031%20Z%20M52%2084%20L51%2044%20L51%2084%20L52%2045%20L85%2064%20L85%2064%20L51%2084Z%20%22/%3e%0d%0a%3c/svg%3e%0d%0a') no-repeat center center;
+}
+#SlideShow3 .carousel-control-next-icon
+{
+   background: url('data:image/svg+xml,%3csvg%20style%3d%22fill:%23000000%22%20viewBox%3d%220%200%20128%20128%22%20version%3d%221.1%22%20xmlns%3d%22http://www.w3.org/2000/svg%22%3e%0d%0a%20%20%20%3cpath%20d%3d%22M0%2057%20C0%2059%2c%201%2061%2c%203%2063%20L3%2063%20L3%2063%20C4%2064%2c%206%2065%2c%208%2065%20C11%2065%2c%2013%2064%2c%2014%2063%20C16%2061%2c%2016%2059%2c%2016%2057%20C16%2050%2c%2019%2044%2c%2023%2040%20C28%2035%2c%2033%2033%2c%2040%2033%20L80%2033%20L80%2033%20L80%2041%20L80%2041%20C80%2044%2c%2082%2047%2c%2085%2048%20C88%2049%2c%2091%2049%2c%2094%2047%20L110%2031%20L110%2031%20C112%2029%2c%20112%2027%2c%20112%2025%20C112%2023%2c%20112%2021%2c%20110%2019%20L94%203%20L94%203%20C91%201%2c%2088%200%2c%2085%202%20C82%203%2c%2080%205%2c%2080%209%20L80%2017%20L80%2017%20L40%2017%20L40%2017%20C29%2017%2c%2020%2021%2c%2012%2029%20C5%2036%2c%201%2045%2c%200%2057%20Z%20M128%2073%20C128%2070%2c%20128%2069%2c%20126%2067%20L126%2067%20L126%2067%20C125%2066%2c%20123%2065%2c%20120%2065%20C118%2065%2c%20116%2066%2c%20115%2067%20C113%2069%2c%20112%2070%2c%20112%2073%20C112%2080%2c%20110%2085%2c%20105%2090%20C101%2094%2c%2095%2097%2c%2088%2097%20L48%2097%20L48%2097%20L48%2089%20L48%2089%20C48%2085%2c%2046%2083%2c%2043%2081%20C40%2080%2c%2037%2081%2c%2035%2083%20L19%2099%20L19%2099%20C17%20101%2c%2016%20103%2c%2016%20105%20C16%20107%2c%2017%20109%2c%2019%20111%20L35%20127%20L35%20127%20C37%20129%2c%2040%20129%2c%2043%20128%20C46%20127%2c%2048%20124%2c%2048%20121%20L48%20113%20L48%20113%20L88%20113%20L88%20113%20C100%20112%2c%20109%20109%2c%20117%20101%20C124%2094%2c%20128%2084%2c%20128%2073%22/%3e%0d%0a%3c/svg%3e%0d%0a') no-repeat center center;
+}
+#SlideShow3
+{
+   border: 0px solid #DEE2E6;
+   border-radius: 0px;
+}
+#wb_Text3 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text3 div
+{
+   text-align: center;
+}
+#Shape7
+{
+   width: 415px;
+   height: 63px;
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px #D2D2D2 solid;
+   border-radius: 10px;
+}
+#Shape7_text
+{
+   position: absolute;
+   pointer-events: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+    left: 1.2%;
+   top: 7.94%;
+   width: 97.11%;
+   height: 80.95%;
+   box-sizing: border-box;
+   overflow: hidden;
+   text-align: center;
+   word-wrap: break-word;
+}
+#wb_Image2
+{
+   vertical-align: top;
+}
+#Image2
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
